@@ -1,0 +1,71 @@
+.title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: 200;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.ask-base{
+    border-radius: 9px;
+    width: 990px;
+    height: 65px;
+    background-color: #d8f0ff;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  
+  .pfp-1{
+    height: 33px;
+    width: 33px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .pfp-2{
+    height: 33px;
+    width: 33px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  
+  .space{
+    width: 770px;
+    height: 30px;
+    border-radius: 12.7px;
+    background-color: antiquewhite;
+    padding-top: 2.7px;
+    margin-left: 47px;
+    margin-top: 9px;
+  }
+  
+  .post-smth{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #4d4d4d;
+    margin-left: 16px;
+    margin-top: auto;
+  }
+  
+  .frm{
+    border-radius: 15px;
+    width: 990px;
+    height: 298px;
+    background-color: #d8f0ff;
+    margin-left: 50px;
+    margin-top: 100px;
+  }  
+
+  .terserah{
+    display: flex;
+    align-items: center;
+  }
+  .post-title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: #4d4d4d;
+    margin-left: 64px;
+  }

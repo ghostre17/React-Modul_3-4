@@ -1,0 +1,104 @@
+.navbar {
+    font-family: arial, sans-serif;
+    font-weight: 500;
+    width: 100%; 
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 10px hsl(0, 0%, 0%, 0.1);
+}
+
+.title {
+    padding-left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.link-title {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    padding: 5px 20px;
+    padding-top: 20px;
+}
+
+.navbar-list-link {
+    padding: 0px 30px;
+}
+
+.active-link {
+    color: rgb(150, 150, 150);
+}
+
+.Main {
+    margin: 0px 20%;
+    max-width: 60%;
+}
+
+.Main-title {
+    
+}
+
+.About {
+    margin: 0px 20%;
+    max-width: 60%;
+}
+
+.Contact {
+    margin: 0px 20%;
+    max-width: 60%;
+}
+
+.Karya {
+    margin: 0px 20%;
+    max-width: 60%;
+}
+
+.list-contact {
+    list-style: none;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: rgb(150, 150, 150);
+}
+
+.footer {
+    position: absolute;
+    padding: 20px;
+    text-align: center;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: rgb(242, 242, 242);
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+
+  .Main, .About, .Contact, .Karya {
+    margin: 0 10px; /* Adjusting content margins */
+    max-width: calc(100% - 20px); /* Adjusting max-width */
+  }
+
+  .footer {
+    position: static; /* Resetting position */
+    margin-top: 100%; /* Adding top margin */
+  }
+  
+}
+
